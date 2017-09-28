@@ -1,0 +1,18 @@
+#rotate{
+	transform: rotate(45deg);
+}
+#skew{
+	transform: skewX(45deg);
+	transform: skewY(45deg);
+}
+#all{
+	transform: rotate(45deg) skewX(45deg);
+
+}
+#matrix{
+	border: 2px solid #000;
+  width: 200px;
+  height: 200px;
+  display: block;
+  margin: 10px;
+}
