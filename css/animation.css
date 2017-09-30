@@ -16,3 +16,30 @@
   display: block;
   margin: 10px;
 }
+#matrix{
+	transform: matrix(1, -0.3, 1, 1, 1, 1);
+}
+#animate{
+	animation-name: animate;
+	animation-duration: 5s;
+	text-align: center;
+}
+@keyframes animate{
+	0%{
+		background-color: blue;
+		transform: translate(300%) rotate(360deg);
+	}
+	50%{
+		background-color: purple;
+		transform: translate(50%) rotate(-360deg);
+	}
+	100%{
+		background-color: red;
+		transform: translate(250%) rotate(360deg);
+	}
+}
+#pseudo:hover{
+	transform: rotate(-45deg) translate(130%);
+	background-color: blue;
+	
+}
